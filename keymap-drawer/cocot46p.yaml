@@ -1,0 +1,68 @@
+layers:
+  Qwery:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '`', h: '~', s: '~'}
+  - {t: A, s: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - H
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, s: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: ':', s: ':'}
+  - {t: '''', h: '"', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - $$mdi:mouse-left-click-outline$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:backspace-reverse-outline$$
+  - EP ON
+  - EP OFF
+  - $$mdi:volume-off$$
+combos:
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
+- p: [3, 4]
+  k: {t: '[', s: '{'}
+- p: [7, 8]
+  k: {t: ']', s: '}'}
+- p: [26, 27]
+  k: '{'
+- p: [30, 31]
+  k: '}'
+- p: [15, 16]
+  k: <
+- p: [19, 20]
+  k: '>'
+- p: [15, 20]
+  k: '|'
+- p: [3, 8]
+  k: {t: \, s: '|'}
