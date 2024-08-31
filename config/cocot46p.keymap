@@ -6,11 +6,9 @@
 
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/rgb.h>
 
 / {
     combos {
@@ -99,17 +97,52 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Qwery {
+        Qwer {
             bindings = <
-&kp ESCAPE       &kp Q           &kp W           &kp E               &kp R             &kp T                                                &kp Y          &kp U                &kp I                    &kp O               &kp P                &kp BSPC
-&as TILDE GRAVE  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G                                                &kp H          &hm RIGHT_SHIFT J    &hm RIGHT_CONTROL K      &hm RIGHT_ALT L     &as COLON SEMICOLON  &as DOUBLE_QUOTES SINGLE_QUOTE
-&kp LEFT_SHIFT   &kp Z           &kp X           &kp C               &kp V             &kp B             &kp N            &mkp LCLK         &kp N          &kp M                &kp COMMA                &kp PERIOD          &kp SLASH            &kp DELETE
-                                                 &kp LEFT_ALT        &kp SPACE         &kp ENTER         &kp SPACE        &kp SPACE         &kp DELETE     &ext_power EP_ON     &ext_power EP_OFF        &kp C_MUTE
+&kp ESCAPE       &kp Q           &kp W           &kp E               &kp R             &kp T                            &kp Y       &kp U              &kp I                &kp O            &kp P                &kp BSPC
+&as TILDE GRAVE  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G                            &kp H       &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &as COLON SEMICOLON  &as DOUBLE_QUOTES SINGLE_QUOTE
+&kp LEFT_SHIFT   &kp Z           &kp X           &kp C               &kp V             &kp B      &mkp LCLK  &mkp RCLK  &kp N       &kp M              &kp COMMA            &kp PERIOD       &kp SLASH            &kp DELETE
+                                                 &mo 4               &mo 2             &kp ENTER  &kp SPACE  &kp SPACE  &kp DELETE  &ext_power EP_ON   &ext_power EP_OFF    &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-            label = "Qwery";
+            label = "Qwer";
         };
 
+        Lower {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Raise {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Setting {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Sniper {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
