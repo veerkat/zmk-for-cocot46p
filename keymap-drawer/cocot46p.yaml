@@ -305,4 +305,4 @@ combos:
 - p: [17, 18]
   k: {t: \, s: '|'}
 - p: [21, 22]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
