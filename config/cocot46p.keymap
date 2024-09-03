@@ -57,7 +57,7 @@
         };
 
         enter {
-            bindings = <&none>;
+            bindings = <&kp ENTER>;
             key-positions = <21 22>;
         };
     };
