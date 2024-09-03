@@ -242,7 +242,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9) 
    trackball_peripheral_scroll_listener {
            compatible = "zmk,input-behavior-listener";
            device = <&pd0>;
-           layers = <2>;
+           layers = <1>;
            evt-type = <INPUT_EV_REL>;
            /* slienting x-axis with alt event code */
            x-input-code = <INPUT_REL_HWHEEL>;
