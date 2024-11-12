@@ -102,8 +102,8 @@
             bindings = <
 &kp ESCAPE       &kp Q           &kp W           &kp E               &kp R             &kp T                              &kp Y             &kp U              &kp I                &kp O            &kp P                &kp BSPC
 &as TILDE GRAVE  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G                              &kp H             &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &as COLON SEMICOLON  &as DOUBLE_QUOTES SINGLE_QUOTE
-&kp LEFT_SHIFT   &kp Z           &kp X           &kp C               &kp V             &kp B        &mo 4      &mo 5      &kp N             &kp M              &kp COMMA            &kp PERIOD       &kp SLASH            &kp DELETE
-                                                 &mo 3               &kp TAB           &lt 1 SPACE  &mkp LCLK  &mkp RCLK  &ltq 2 BACKSPACE  &mo 5              &ext_power EP_OFF    &kp C_MUTE
+&kp LEFT_SHIFT   &kp Z           &kp X           &kp C               &kp V             &kp B        &mkp MB3     &mo 5      &kp N             &kp M              &kp COMMA            &kp PERIOD       &kp SLASH            &kp DELETE
+                                                 &mo 3               &kp TAB           &lt 1 SPACE  &mkp MB1  &mkp MB2    &ltq 2 BACKSPACE  &mo 5              &ext_power EP_OFF    &kp C_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
