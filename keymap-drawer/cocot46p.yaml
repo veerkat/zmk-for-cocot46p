@@ -38,10 +38,10 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - Setting
-  - $$mdi:keyboard-tab$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: Lower}
-  - '&mkp MB1'
+  - $$mdi:mouse-left-click-outline$$
   - '&mkp MB2'
   - {t: '$$mdi:backspace$$', h: Raise}
   - Other
@@ -182,7 +182,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
