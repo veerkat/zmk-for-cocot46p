@@ -30,7 +30,7 @@ layers:
   - C
   - V
   - B
-  - Sniper
+  - '&mkp MB3'
   - Other
   - N
   - M
@@ -41,8 +41,8 @@ layers:
   - Setting
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: Lower}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '$$mdi:backspace$$', h: Raise}
   - Other
   - EP OFF
@@ -222,7 +222,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:mouse-left-click-outline$$', type: held}
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
