@@ -95,8 +95,12 @@
 		reg = <0>;
 		spi-max-frequency = <4000000>;
 	    irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-	   
+	    /*automouse_layer*/
+        /*automouse-layer = <2>;*/
+        /*scroll_layer*/
         scroll-layers = <1>;
+        /*sniper_layer*/
+        sniper-layers = <4>;
 	};
 };
 
