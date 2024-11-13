@@ -117,6 +117,8 @@
 &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans        &trans     &trans     &trans  &trans   &trans
                                     &trans        &trans        &trans  &trans  &trans  &kp RSHFT     &trans     &trans     &trans
             >;
+
+             label = "Lower";
         };
 
         Raise {
@@ -126,6 +128,7 @@
 &kp PAGE_DOWN  &kp DEL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &trans  &trans  &trans  &trans    &trans          &trans     &trans  &trans
                                           &trans           &trans           &trans           &trans  &trans  &trans  &trans    &trans          &trans
             >;
+             label = "Raise";
         };
 
         Setting {
@@ -135,6 +138,8 @@
 &bootloader      &trans           &trans           &trans           &trans           &trans             &trans  &trans  &trans        &trans        &trans        &trans        &trans        &trans
                                                    &trans           &trans           &trans             &trans  &trans  &trans        &trans        &trans        &trans
             >;
+             label = "Setting";
+
         };
 
         Sniper {
@@ -144,6 +149,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans
             >;
+             label = "Sniper";
         };
     };
 };
