@@ -99,8 +99,8 @@
         /*automouse-layer = <2>;*/
         /*scroll_layer*/
         scroll-layers = <1>;
-        /*sniper_layer*/
-        sniper-layers = <4>;
+        /*snipe_layer*/
+        snipe-layers = <4>;
 	};
 };
 
