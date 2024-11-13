@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Lower}
   - Setting
-  - Sniper
+  - Snipe
   - {t: '$$mdi:keyboard-space$$', h: Raise}
   - $$mdi:apple-keyboard-option$$
   - RIGHT WIN
@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Sniper:
+  Snipe:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
